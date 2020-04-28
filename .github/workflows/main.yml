@@ -3,7 +3,7 @@ name: My first github action
 on: push 
 
 jobs: 
-  name: Run OS
+  hello_world:
     runs-on: ubuntu-latest
 
   strategy:
